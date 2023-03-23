@@ -22,3 +22,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class SunSide extends StatelessWidget {
+  const SunSide({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Column(
+
+      ),
+    );
+  }
+}
+
